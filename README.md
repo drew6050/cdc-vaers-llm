@@ -1,7 +1,7 @@
 # CDC VAERS Text Classification Using BERT
 This is a rapid reserch project to showcase my skills on getting up-to-speed on a project over a single weekend.
 
-Background: The CDC collects vaccine adverse events throught the Vaccine Adverse Event Reporting System (VAERS). There are 2 free text fields where descriptions of the events are captured. Coders search for specific terms in these fields in the form and code them to a searchable and consistent MedDRA terms. 
+Background: The CDC and FDA collect vaccine adverse events through the Vaccine Adverse Event Reporting System (VAERS). There are 2 free text fields where descriptions of the events are captured. Coders search for specific terms in these fields in the form and code them to a searchable and consistent MedDRA terms. 
 
 A Fine-Tuned LLM DistilBERT to Classify User VARES Adverse Event Symptoms Text Descriptions 
 To predict more than just the first symptom (SYMPTOM1), a different approach is needed to handle multiple label prediction. This is typically done using a multi-label classification setup, where each symptom is treated as a separate label, and the model learns to predict the presence or absence of each symptom independently (using a MultiLabelBinarizer).
