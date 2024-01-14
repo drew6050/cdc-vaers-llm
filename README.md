@@ -10,3 +10,5 @@ VAERS – Vaccine Adverse Event Reporting System
         i.	The fields described in this table provide the adverse event coded terms utilizing the MedDRA dictionary. Coders will search for specific terms in Items 18 and 19 in VAERS 2 form or Boxes 7 and 12 on the VAERS 1 form and code them to a searchable and consistent MedDRA term; note that terms are included in the .csv file in alphabetical order. 
         ii.	There can be an unlimited amount of coded terms for a given event. Each row in the .csv will contain up to 5 MedDRA terms per VAERS ID; thus, there could be multiple rows per VAERS ID. For each of the VAERS_ID’s listed in the VAERSDATA.CSV table, there is a matching record in this file, identified by VAERS_ID.
 
+
+![image](https://github.com/drew6050/cdc-vaers-llm/assets/102396940/c61b1ca7-7822-44be-b0f8-a83b54a522a3)
