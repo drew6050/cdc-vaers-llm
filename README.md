@@ -5,7 +5,7 @@ This is a rapid research project to showcase my skills on getting up-to-speed on
 The CDC and FDA collect vaccine adverse events through the Vaccine Adverse Event Reporting System (VAERS). There are 2 free text fields where descriptions of the events are captured. Coders search for specific terms in these fields and label them with searchable and consistent MedDRA terms. Using an LLM to code the text fields into the MedDRA terms would help automate the manual process and could lead to higher accuracy.
 
 ## Approach
-HHS has raw VAERS data available publicly by year going back to 1990. Given the time constraint and the need to use a local computer for processing, I focused on the most recent year’s data, i.e., 2023. Furthermore, each text field can result in as many symptom labels as the coder find, so to limit the scope I focused on predicting the 1st symptom only (see Appendix for data details).
+HHS makes raw VAERS data available publicly by year going back to 1990. Given the time constraint and the need to use a local computer for processing, I focused on the most recent year’s data, i.e., 2023. Furthermore, each text field can result in as many symptom labels as the coder find, so to limit the scope I focused on predicting the 1st symptom only (see Appendix for data details).
 
 ## Results
 + The base DistilBERT model was unable to label any symptoms correctly in the test set. (Base Model Accuracy 0%.)
