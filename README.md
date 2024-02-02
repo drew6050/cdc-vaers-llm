@@ -1,5 +1,5 @@
 # CDC VAERS Adverse Event Multi-Label Text Classification (Using DistilBERT)
-This is a rapid research project to showcase my skills on getting up-to-speed on a project over the course of a single weekend.
+This is a rapid research project to showcase my skills on getting up-to-speed on a project over the course of a single weekend. Note: for this project I am using open data from the CDC (see Appendix), so there are no data privacy concerns.
 
 ## Background
 The CDC and FDA collect vaccine adverse events through the Vaccine Adverse Event Reporting System (VAERS). There are 2 free text fields where descriptions of the events are captured. Coders search for specific terms in these fields and label them with searchable and consistent MedDRA terms. Using an LLM to code the text fields into the MedDRA terms would help automate the manual process and could lead to higher accuracy.
